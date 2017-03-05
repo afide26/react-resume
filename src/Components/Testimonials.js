@@ -35,9 +35,9 @@ class Testimonials extends Component {
 
                           <li>
                              <blockquote>
-                                <p>Knowing is not enough, <strong>We must APPLY.</strong>
-                                Willing is not enough,
-                                <strong>We must DO.</strong>
+                                <p>Knowing is not enough, <br/>We must APPLY.
+                                <br/>Willing is not enough,<br/>
+                                We must DO.
                                 </p>
                                 <cite>Bruce Lee</cite>
                              </blockquote>
