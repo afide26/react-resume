@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import path from 'path';
 import './App.css';
 import $ from 'jquery';
 import About from './Components/About';
@@ -13,13 +14,12 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      foo: 'bar',
       resumeData:{}
     }
   }
   getResumeData(){
     $.ajax({
-      url:'http://localhost:3000/resumeData.json',
+      url:path.join(__dirname,'/resumeData.json'),
       dataType:'json',
       cache: false,
       success: function(data){
@@ -42,13 +42,13 @@ class App extends Component {
     console.log(this.state.resumeData)
     return (
       <div className="App">
-        <Header/>
-        <About/>
+        <Header data={this.state.resumeData.main}/>
+        <About data={this.state.resumeData.main}/>
         <Contact/>
-        <Resume/>
-        <Portfolio/>
-        <Testimonials/>
-        <Contact/>
+        <Resume data={this.state.resumeData.resume}/>
+        <Portfolio data={this.state.resumeData.portfolio}/>
+        <Testimonials data={this.state.resumeData.Testimonials}/>
+        <Contact data={this.state.resumeData.main}/>
         <Footer/>
       </div>
     );

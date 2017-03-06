@@ -3,39 +3,52 @@ import React, { Component } from 'react';
 
 class About extends Component {
   render() {
+    if(this.props.data){
+      var name = this.props.data.name;
+      var image = 'images/'+this.props.data.image;
+      var phone = this.props.data.phone;
+      var email = this.props.data.email;
+      var bio = this.props.data.bio;
+      var download = this.props.data.resumedownload;
+      var street = this.props.data.address.street;
+      var city = this.props.data.address.city;
+      var state = this.props.data.address.state;
+      var zip = this.props.data.address.zip;
+      var country = this.props.data.address.country;
+      var networks = this.props.data.social.map((network)=>{
+        return <li key={network.name}><a href={network.url} target="_blank"><i className={network.className} ></i></a></li>
+      })
+    }
     return (
       <div>
         <section id="about">
            <div className="row">
               <div className="three columns">
-                 <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
+                 <img className="profile-pic"  src={image} alt="" />
               </div>
               <div className="nine columns main-col">
                  <h2>About Me</h2>
-                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                 eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                 voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                 voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                 sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                 Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                 <p>
+                   {bio}
                  </p>
                  <div className="row">
                     <div className="columns contact-details">
                        <h2>Contact Details</h2>
                        <p className="address">
-           						   <span>Alan Fidelino</span><br/>
+           						   <span>{name}</span><br/>
            						   <span>
-                           10 Marlowe Street<br/>
-                          Wetherill Park, NSW 2164 Australia
+                           {street}<br/>
+                           {city}<br/>
+                           {zip}, {country}
                         </span>
                         <br/>
-     						        <span><a href="tel:+612432193240">Call Me</a></span><br/>
-                        <span><a href="mailto:alanfidelino@yahoo.com.au">Email Alan</a></span>
+     						        <span><a href={phone}>Call Me</a></span><br/>
+                        <span><a href={email}>Email Alan</a></span>
      					         </p>
                     </div>
                     <div className="columns download">
                        <p>
-                          <a href="#" className="button"><i className="fa fa-download"></i>Download Resume</a>
+                          <a href={download}className="button"><i className="fa fa-download"></i>Download Resume</a>
                        </p>
                     </div>
 
