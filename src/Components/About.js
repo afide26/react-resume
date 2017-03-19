@@ -15,9 +15,6 @@ class About extends Component {
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var country = this.props.data.address.country;
-      var networks = this.props.data.social.map((network)=>{
-        return <li key={network.name}><a href={network.url} target="_blank"><i className={network.className} ></i></a></li>
-      })
     }
     return (
       <div>
@@ -39,7 +36,7 @@ class About extends Component {
            						   <span>
                            {street}<br/>
                            {city}<br/>
-                           {zip}, {country}
+                           {state}{zip}, {country}
                         </span>
                         <br/>
      						        <span><a href={phone}>Call Me</a></span><br/>

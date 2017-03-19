@@ -3,20 +3,19 @@ import React, { Component } from 'react';
 
 class Footer extends Component {
   render() {
+    if(this.props.data){
+      var networks = this.props.data.social.map((network)=>{
+        return <li key={network.name}><a href={network.url} target="_blank"><i className={network.className} ></i></a></li>
+      })
+    }
     return (
       <div>
         <footer>
            <div className="row">
               <div className="twelve columns">
-                 <ul className="social-links">
-                    <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
-                    <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
-                    <li><a href="#"><i className="fa fa-skype"></i></a></li>
-                 </ul>
+                <ul className="social-links">
+                 {networks}
+                </ul>
                  <ul className="copyright">
                     <li>&copy; Copyright {new Date().getFullYear()} Alan Fidelino</li>
                     <li>Original Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>

@@ -3,6 +3,17 @@ import React, { Component } from 'react';
 
 class Contact extends Component {
   render() {
+    if(this.props.data){
+      var name = this.props.data.name;
+      var phone = this.props.data.phone;
+      var email = this.props.data.email;
+      var street = this.props.data.address.street;
+      var city = this.props.data.address.city;
+      var state = this.props.data.address.state;
+      var zip = this.props.data.address.zip;
+      var country = this.props.data.address.country;
+    }
+
     return (
       <div>
         <section id="contact">
@@ -17,9 +28,8 @@ class Contact extends Component {
 
                  <div className="ten columns">
 
-                       <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                       eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                       voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                       <p className="lead">If you find my details sufficient for your organisation's needs, please take the time
+                         fill up this short form and I will get in touch with you ASAP.
                        </p>
 
                  </div>
@@ -66,11 +76,13 @@ class Contact extends Component {
                <aside className="four columns footer-widgets">
                   <div className="widget widget_contact">
        					   <h4>Address and Phone</h4>
+                   <h6>You can also reach me via:</h6>
        					   <p className="address">
-       						   Jonathan Doe<br/>
-       						   1600 Amphitheatre Parkway <br/>
-       						   Mountain View, CA 94043 US<br/>
-       						   <span>(123) 456-7890</span>
+     						     {name}<br/>
+                     {street} <br/>
+                     {city}, {state} {zip} {country}<br/>
+                     <span><a href={phone}>Call Me</a></span><br/>
+                     <span><a href={email}>Contact me via email</a></span>
        					   </p>
        				   </div>
                 </aside>

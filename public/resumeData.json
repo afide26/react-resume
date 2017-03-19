@@ -46,11 +46,6 @@
         "name":"github",
         "url":"https://github.com/afide26/",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
@@ -63,13 +58,13 @@
         "description":"Six-month Web Development course designed to for beginners to have the skills to be an employable junior front-end and Ruby on Rails developer. The curriculum covers HTML, CSS, Javascript, jQuery, Bootstrap, Ruby, and Rails. By the end of the program, students will have built their first web app and will understand developer tools like Git and Heroku. The end project for this course is an online portfolio and an e-commerce web-application utilising Rails5 technology and Stripe as payment system."
       },
       {
-        "school":"UDEMY",
+        "school":"UDEMY - Complete Node.JS Developer Course",
         "degree":"Complete Node.JS Developer Course",
         "graduated":"January 14, 2017",
         "description":"This project based course entailed coding 4 Node applications with varying complexities utilising MongoDB, Authentication, Socket.io, automated testing and version control"
       },
       {
-        "school":"UDEMY",
+        "school":"UDEMY - The Web Developer Bootcamp ",
         "degree":"The Web Developer Bootcamp",
         "graduated":"February 4, 2017",
         "description":"The course takes aspiring web developers into a plethora of web development topics like HTML, CSS, Javascript for both front end and back end, version control, No SQL databases, authenticaion, authorisation to prepare for a potential career in Web development. The online course entails tests, code challenges and sample web application as capstone project."
