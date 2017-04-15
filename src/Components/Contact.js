@@ -38,7 +38,7 @@ class Contact extends Component {
 
               <div className="row">
                  <div className="eight columns">
-                    <form action="" method="post" id="contactForm" name="contactForm">
+                    <form method="POST" action="https://formspree.io/alanfidelino@yahoo.com.au" id="contactForm" name="contactForm">
 					            <fieldset>
                         <div>
              						   <label htmlFor="contactName">Name <span className="required">*</span></label>
