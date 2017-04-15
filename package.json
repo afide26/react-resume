@@ -15,5 +15,8 @@
     "build": "./node_modules/react-scripts/bin/react-scripts.js build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "engines":{
+    "node":"7.9.0"
   }
 }
