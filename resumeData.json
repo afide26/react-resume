@@ -1,0 +1,210 @@
+{
+  "main": {
+    "name": "Alan Fidelino",
+    "occupation": "Web developer aspiring to land a full-time web front-end development role focused on building User Interface development with ReactJS, React Context, Redux and Hooks.",
+    "description": "I am also avidly learning other JavaScript frameworks like Angular and Vue.js, and have had previous experience in developing AngularJS applications.",
+    "image": "profilepic.jpg",
+    "bio": "I am an avid learner of technology and have dedicated the last 5 years studying and sharpening my skills and knowledge in web development technologies and languages, primarily inJavaScript. With the availability of MOOCs (Massive Open Online Courses), learning has become a passion for me to improve myself and be challenged to always be on my toes to start each day fresh with new challenges.",
+    "email": "mailto:alanfidelino@yahoo.com.au",
+    "phone": "tel:+61432193240",
+    "address": {
+      "street": "10 Marlowe Street",
+      "city": "Wetherill Park, Sydney",
+      "state": "New South Wales",
+      "zip": "2164",
+      "country": "Australia"
+    },
+    "website": "https://cfbikeberlinapp.herokuapp.com",
+    "resumedownload": "http://something.com",
+    "social": [{
+        "name": "facebook",
+        "url": "https://www.facebook.com/freeflowing.reviews",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com/afide26",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "google-plus",
+        "url": "https://plus.google.com/u/0/105250946654496270708",
+        "className": "fa fa-google-plus"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/alan-fidelino-25148213/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/afide26/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/afide26/",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "education": [{
+        "school": "CareerFoundry",
+        "degree": "Full Stack Web Development Specialising in Ruby on Rails",
+        "graduated": "November 2016",
+        "description": "Six-month Web Development course designed to for beginners to have the skills to be an employable junior front-end and Ruby on Rails developer. The curriculum covers HTML, CSS, Javascript, jQuery, Bootstrap, Ruby, and Rails. By the end of the program, students will have built their first web app and will understand developer tools like Git and Heroku. The end project for this course is an online portfolio and an e-commerce web-application utilising Rails5 technology and Stripe as payment system."
+      },
+      {
+        "school": "UDEMY - Complete Node.JS Developer Course",
+        "degree": "Complete Node.JS Developer Course",
+        "graduated": "January 14, 2017",
+        "description": "This project based course entailed coding 4 Node applications with varying complexities utilising MongoDB, Authentication, Socket.io, automated testing and version control"
+      },
+      {
+        "school": "UDEMY - The Web Developer Bootcamp ",
+        "degree": "The Web Developer Bootcamp",
+        "graduated": "February 4, 2017",
+        "description": "The course takes aspiring web developers into a plethora of web development topics like HTML, CSS, Javascript for both front end and back end, version control, No SQL databases, authenticaion, authorisation to prepare for a potential career in Web development. The online course entails tests, code challenges and sample web application as capstone project."
+      }
+    ],
+    "work": [{
+        "company": "Woolworths Group",
+        "title": "Communications Specialist - Front and Full Stack Web Developer",
+        "years": "October 2012 - Present",
+        "description": "I am a fulltime Communications Specialist with skills in digital media, graphic design and was tasked to develop our intranet site. I single handedly designed, developed and maintained the group IT website using the Ruby on Rails framework."
+      },
+      {
+        "company": "Sensis White Pages",
+        "title": "Media Specialist/Online Specialist",
+        "years": "April 2007 - October 2012",
+        "description": "My role entailed providing detailed analysis of businesses being serviced by the top account executives in White Pages in order to match the digital and print solutions offered by the company to the client's business needs in terms of digital presence. Other roles include digital project management, online coaching and sharing of new trends in web technologies that helped the team in their digital knowledge."
+      }
+    ],
+    "skills": [{
+        "name": "Photoshop",
+        "level": "70%"
+      },
+      {
+        "name": "Illustrator",
+        "level": "70%"
+      },
+      {
+        "name": "CSS",
+        "level": "80%"
+      },
+      {
+        "name": "HTML5",
+        "level": "90%"
+      },
+      {
+        "name": "Javascript",
+        "level": "80%"
+      },
+      {
+        "name": "NodeJS",
+        "level": "80%"
+      },
+      {
+        "name": "Ruby and Ruby on Rails",
+        "level": "80%"
+      },
+      {
+        "name": "ReactJS and Redux",
+        "level": "80%"
+      },
+      {
+        "name": "jQuery",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [{
+        "title": "Coffee Cup",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Illustrator",
+        "tags": "Branding, Web Design",
+        "image": "coffee.jpg",
+        "url": "http://port1.com",
+        "modal": "#modal-01"
+      },
+      {
+        "title": "Console",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Web Design",
+        "tags": "Branding, Web Development",
+        "image": "console.jpg",
+        "url": "http://port2.com",
+        "modal": "#modal-02"
+      },
+      {
+        "title": "Judah",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Web Development",
+        "tags": "Branding, Web Programming",
+        "image": "judah.jpg",
+        "url": "http://port3.com",
+        "modal": "#modal-03"
+      },
+      {
+        "title": "Into The Light",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Photography",
+        "tags": "Photography, Design",
+        "image": "into-the-light.jpg",
+        "url": "http://port4.com",
+        "modal": "#modal-04"
+      },
+      {
+        "title": "Farmer Boy",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Branding",
+        "tags": "Branding, Web Design",
+        "image": "farmerboy.jpg",
+        "url": "http://port5.com",
+        "modal": "#modal-05"
+      },
+      {
+        "title": "Girl",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Photography",
+        "tags": "Photography, Graphic Design",
+        "image": "girl.jpg",
+        "url": "http://port6.com",
+        "modal": "#modal-06"
+      },
+      {
+        "title": "Origami",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Illustration",
+        "tags": "Branding, Illustration",
+        "image": "origami.jpg",
+        "url": "http://port7.com",
+        "modal": "#modal-07"
+      },
+      {
+        "title": "Retrocam",
+        "description": "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category": "Web Development",
+        "tags": "Photography",
+        "image": "retrocam.jpg",
+        "url": "http://port8.com",
+        "modal": "#modal-08"
+      }
+    ]
+  },
+  "Testimonials": {
+    "testimonials": [{
+        "text": "I had the pleasure of working with Alan in Woolworths. Alan is an exceptionally hard working professional. His ability to work under pressure and deliver a top class outcome is what makes him stand out from the crowd. He is an excellent communicator and has the ability to translate complex information in simple and exciting formats. Alan is a keen learner and is passionate about digital technology. He keeps reinventing himself by learning new skills and finding ways to use that in his role. I believe Alan's passion in the web/mobile development space holds him in good stead in this fast moving world. He will be a great asset to any organisation especially in the digital space.",
+        "user": "Ani Nair - Senior Manager, Customer Experience Design ICare, Alan's previous boss, mentor and influencer",
+        "link": "https://www.linkedin.com/in/alan-fidelino-25148213/"
+      },
+      {
+        "text": "I had the pleasure of working with Alan while he was my colleague at Woolworths. During this time he was diligently learning two programming languages, Javascript and Ruby. Not only did he learn two development stacks but he would also find practical ways to implement what he had learnt to benefit the business. The crowning project was one in which he built the portal for Woolworths I.T. division. I respect Alan as he would go over and above his role consistently, finding new problems he could solve and helping others, finding best practice resolutions to whatever problem he was faced with. I would highly recommend Alan as a problem solver, team player and technologist.",
+        "user": "Trent Shields - Founder and Lead Strategist at Dev Haus X, Alan's Web Development Mentor",
+        "link": "https://www.linkedin.com/in/alan-fidelino-25148213/"
+      }
+    ]
+  }
+}
