@@ -5,7 +5,8 @@
 ---
 
 The site was built using AngularJS, CSS and Vanilla Javascript.
-I have recently updated the site to show my updated portfolio and current skillset for review and consideration of future employers.
+I have recently updated the site to show my most recent portfolio and current skillset for review and consideration of future employers.
+
 The link can be found at [AF Resume](https://afide26.github.io/afresume)
 
 ---
