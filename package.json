@@ -5,7 +5,7 @@
   "devDependencies": {
     "react-scripts": "0.9.3"
   },
-  "homepage": "https://afide26.github.io/afresume",
+  "homepage": "https://afide26.github.io/react-resume",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "jquery": "^3.1.1",
